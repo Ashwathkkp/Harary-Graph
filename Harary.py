@@ -41,7 +41,7 @@ def Harary(n,k):
         for x in range(0,int(n/2)+1):
             graph.append((x,x+int(n/2)))
         graph.append(( 0,int((n-1)/2) ))
-        graph.append(( 0,int((n+1)/2) ))
+ #       graph.append(( 0,int((n+1)/2) ))
         
     draw_graph(graph,nodes)
 
